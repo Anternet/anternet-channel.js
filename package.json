@@ -1,0 +1,38 @@
+{
+  "name": "anternet-channel",
+  "version": "0.0.0",
+  "description": "Anternet library for listening to broadcasts form other peers.",
+  "keywords": [
+    "anternet",
+    "channel",
+    "p2p",
+    "udp",
+    "broadcast"
+  ],
+  "main": "channel.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Moshe Simantov <ms@development.co.il> (https://github.com/moshest)",
+  "license": "MIT",
+  "dependencies": {
+    "secp256k1": "^3.1.0",
+    "anternet": "*"
+  },
+  "devDependencies": {
+    "anternet-broadcast": "*",
+    "eslint": "^2.10.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "mocha": "^2.4.5",
+    "mocha-eslint": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anternet/anternet-channel.js.git"
+  }
+}
