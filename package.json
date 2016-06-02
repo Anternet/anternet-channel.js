@@ -1,6 +1,6 @@
 {
   "name": "anternet-channel",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Anternet library for listening to broadcasts form other peers.",
   "keywords": [
     "anternet",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "secp256k1": "^3.1.0",
-    "anternet": "*"
+    "anternet": ">=0.3.0"
   },
   "devDependencies": {
     "anternet-broadcast": "*",
