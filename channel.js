@@ -22,13 +22,17 @@ class Channel extends EventEmitter {
   }
 
   static extend(anternet) {
-    if (!(anternet instanceof Anternet)) throw new Error('Invalid instance; Anternet instance expected');
+    if (!(anternet instanceof Anternet)) {
+      throw new Error('Invalid instance; Anternet instance expected');
+    }
 
     return anternet.extend(Extension);
   }
 
   static release(anternet) {
-    if (!(anternet instanceof Anternet)) throw new Error('Invalid instance; Anternet instance expected');
+    if (!(anternet instanceof Anternet)) {
+      throw new Error('Invalid instance; Anternet instance expected');
+    }
 
     return anternet.release(Extension);
   }
