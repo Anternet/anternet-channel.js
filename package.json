@@ -1,6 +1,6 @@
 {
   "name": "anternet-channel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Anternet library for listening to broadcasts form other peers.",
   "keywords": [
     "anternet",
