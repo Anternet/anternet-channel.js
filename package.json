@@ -20,7 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "secp256k1": "^3.1.0",
-    "anternet": ">=0.3.0"
+    "anternet": ">=0.3.1"
   },
   "devDependencies": {
     "anternet-broadcast": "*",
